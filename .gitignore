@@ -8,6 +8,14 @@ bower_components/
 build/
 dist/
 
+### Bower ###
+.bower-cache
+.bower-registry
+.bower-tmp
+
+### Sass ###
+.sass-cache
+*.css.map
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
