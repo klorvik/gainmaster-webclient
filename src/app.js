@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name gainmasterApp
+ * @name bachelorWebClientApp
  * @description
- * # gainmasterApp
+ * # bachelorWebClientApp
  *
  * Main module of the application.
  */
 angular
-  .module('gainmasterApp', [
+  .module('bachelorWebClientApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -20,12 +20,8 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'modules/components/main/main.html',
         controller: 'MainCtrl'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
       })
       .otherwise({
         redirectTo: '/'

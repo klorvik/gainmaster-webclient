@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name gainmasterApp.controller:MainCtrl
+ * @name bachelorWebClientApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the gainmasterApp
+ * Controller of the bachelorWebClientApp
  */
-angular.module('gainmasterApp')
+angular.module('bachelorWebClientApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
