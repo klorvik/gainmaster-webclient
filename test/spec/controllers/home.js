@@ -5,13 +5,13 @@ describe('Controller: Home', function () {
   // load the controller's module
   beforeEach(module('gainmasterApp'));
 
-  var MainCtrl,
+  var Home,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    MainCtrl = $controller('MainCtrl', {
+    Home = $controller('Home', {
       $scope: scope
     });
   }));

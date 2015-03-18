@@ -9,12 +9,10 @@
      * Controller of the gainmasterApp
      */
     angular
-      .module('gainmasterApp.home')
-      .controller('Home', Home);
-    
-      Home.$inject = ['$scope'];
+      .module('gainmasterApp.components.home')
+      .controller('Home', home);
         
-      function Home($scope){
+      function home($scope){
         $scope.awesomeThings = [
           'HTML5 Boilerplate',
           'AngularJS',

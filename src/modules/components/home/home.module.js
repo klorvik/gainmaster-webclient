@@ -1,5 +1,5 @@
 (function() {
     'use strict';
 
-    angular.module('gainmasterApp.home', []);
+    angular.module('gainmasterApp.components.home', []);
 })();
