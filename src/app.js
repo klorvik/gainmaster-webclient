@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('bachelorWebClientApp', [
+  .module('gainmasterApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
