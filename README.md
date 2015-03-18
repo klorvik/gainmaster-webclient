@@ -1,5 +1,17 @@
 # gainmaster-webclient
 
+## Structure
+
+    /build
+    /test   
+    /src
+        /assets
+            /images
+            /styles
+        /modules
+            /core
+            /components
+
 ## Setup Development Environment
 
 1) Install development dependencies
