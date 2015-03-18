@@ -6,6 +6,7 @@
         'ngAnimate',
         'ngCookies',
         'ngResource',
+        'ngRoute',
         'ngSanitize',
         'ngTouch'
         //Reusable cross app modules

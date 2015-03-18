@@ -2,9 +2,7 @@
     'use strict';
 
     angular
-      .module('gainmasterApp', [
-        'ngRoute',
-      ])
+      .module('gainmasterApp')
       .config(function ($routeProvider) {
           $routeProvider
           .when('/', {
