@@ -1,19 +1,22 @@
 ### Yeoman ###
-node_modules/
-bower_components/
-*.log
-.tmp
+web/node_modules/
+web/bower_components/
+web/*.log
+web/.tmp
 
-build/
+web/build/
 
 ### Bower ###
-.bower-cache
-.bower-registry
-.bower-tmp
+web/.bower-cache
+web/.bower-registry
+web/.bower-tmp
 
 ### Sass ###
-.sass-cache
-*.css.map
+web/.sass-cache
+web/*.css.map
+
+### Vagrant ###
+.vagrant
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm

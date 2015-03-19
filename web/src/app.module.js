@@ -15,15 +15,5 @@
         'gainmasterApp.core',
         //Components
         'gainmasterApp.components.home'
-      ])
-      .config(function ($routeProvider) {
-        $routeProvider
-          .when('/', {
-            templateUrl: 'modules/components/home/home.html',
-            controller: 'Home'
-          })
-          .otherwise({
-            redirectTo: '/'
-          });
-      });
+      ]);
 })();

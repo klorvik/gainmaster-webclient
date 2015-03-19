@@ -10,7 +10,7 @@
             controller: 'Home'
           })
           .otherwise({
-            redirectTo: '/'
+            templateUrl: '404.html'
           });
       });
 })();
