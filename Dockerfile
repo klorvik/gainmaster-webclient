@@ -11,4 +11,4 @@ COPY web/ .
 COPY script/build.sh ./
 
 # Define default command
-CMD ["build.sh"]
+CMD ["/tmp/gainmaster/build.sh"]
