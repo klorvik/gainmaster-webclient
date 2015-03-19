@@ -7,5 +7,4 @@ bower install -p --allow-root --config.interactive=false
 
 grunt build
 
-mkdir /srv/http
 cp -r build/* /srv/http/
