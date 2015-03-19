@@ -1,5 +1,10 @@
 # gainmaster-webclient
 
+This repository contains a **Dockerfile** for the gainmaster-webclient docker image, and a **Vagrantfile** for local development. 
+This repository is a part of an automated build, published to the [Docker Hub][docker_hub_repository].
+
+**Base image:** [bachelorthesis/angularjs][docker_hub_base_image]
+
 ## Structure
 
     /build
@@ -38,3 +43,6 @@
 [nodejs]: https://nodejs.org/
 [ruby]: https://www.ruby-lang.org/
 [compass]: http://compass-style.org/
+
+[docker_hub_repository]: https://registry.hub.docker.com/u/bachelorthesis/gainmaster-webclient/
+[docker_hub_base_image]: https://registry.hub.docker.com/u/bachelorthesis/angularjs/

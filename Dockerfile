@@ -7,7 +7,8 @@ MAINTAINER Knut Lorvik <lorviken@gmail.com>
 WORKDIR /tmp/gainmaster
 
 # Copy files
-COPY web/ . 
+COPY web/ .
+COPY script/build.sh .
 
 # Define default command
-CMD ["bash"]
+CMD ["build.sh"]
