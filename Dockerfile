@@ -8,7 +8,7 @@ WORKDIR /tmp/gainmaster
 
 # Copy files
 COPY web/ .
-COPY script/build.sh .
+COPY script/build.sh ./
 
 # Define default command
 CMD ["build.sh"]
